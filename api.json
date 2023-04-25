@@ -1,0 +1,30 @@
+{
+	"nombre" : "GameSearch",
+	"descripcion" : "Api para la busqueda y recomendacion de videojuegos",
+	"url": "http://api.gamesearch.com",
+	"precio": "free",
+
+		"endpoints":[
+		{
+		"url":"/games",
+		"limit":"1000"
+		},
+		{
+		"url":"/games/genres",
+		"limit":"500"
+		},
+		{
+		"url":"/games/platforms",
+		"limit":"500"
+		},
+		{
+		"url":"/games/developers",
+		"limit":"500"
+		},
+		{
+		"url":"/games/ratings",
+		"limit":"500"
+		}
+		]
+		
+		}
